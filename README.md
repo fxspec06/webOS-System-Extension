@@ -1,4 +1,4 @@
-webOS-System-Extention
+webOS-System-Extension
 ======================
 
 Dashboard notifications, keyboard, enyo.windows, and more
