@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 webOS-System-Extention
 ======================
 
@@ -17,3 +18,7 @@ I have not yet found a way to receive window activation or relaunch events, alth
 
 Link to thread on enyo forums:
 http://forums.enyojs.com/discussion/711/dashboard-notifications-enyo-window-filepicker-and-more
+=======
+MOVED: https://github.com/fxspec06/webOS-System-Extension
+===========================================================
+>>>>>>> 129a0b54a78988c0cafe7b9040a79ee32c568ef7
