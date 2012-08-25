@@ -79,7 +79,7 @@ enyo.kind({
 	},
 	dispatchDomEvent: function(e) {
 		//this.log('on' + enyo.cap(e.type));
-		return this.dispatchIndirectly('on' + enyo.cap(e.type), arguments);
+		return this.bubble('on' + enyo.cap(e.type), arguments);
 	}
 });
 

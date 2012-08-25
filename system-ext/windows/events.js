@@ -1,8 +1,7 @@
 //* @protected
 enyo.windows.events = {
 	dispatchEvent: function(inWindow, inParams) {
-		//console.log("enyo.windows.dispatchEvent: " + inWindow.name + ", " + inParams.type);
-		inWindow.enyo.dispatch(inParams);
+		inWindow.enyo.dispatcher.rootHandler.broadcastEvent(inParams);
 	},
 	handleAppMenu: function(inWindowParams) {
 		var w = enyo.windows.getActiveWindow();

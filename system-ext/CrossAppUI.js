@@ -6,7 +6,7 @@ A CrossAppUI control is used for displaying UI that resides outside the applicat
 */
 enyo.kind({
 	name: "enyo.CrossAppUI",
-	//kind: enyo.Iframe,
+	kind: enyo.Iframe,
 	tag: "Iframe",
 	published: {
 		app: "", //* String. id of the app whose UI will be displayed.
