@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 webOS-System-Extention
+=======
+webOS-System-Extension
+>>>>>>> ad31ddf70dac442b0bdf10d2540bff7cc7641df0
 ======================
 
 Dashboard notifications, keyboard, enyo.windows, and more
