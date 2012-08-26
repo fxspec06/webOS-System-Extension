@@ -72,6 +72,10 @@ enyo.kind({
 	create: function() {
 		this.inherited(arguments);
 		enyo.dispatcher.rootHandler.addListener(this);
+		window.addEventListener('unload', this.dispatchDomEvent.bind(this));
+		window.addEventListener('load', this.dispatchDomEvent.bind(this));
+		window.addEventListener('resize', this.dispatchDomEvent.bind(this));
+		window.addEventListener('message', this.dispatchDomEvent.bind(this));
 	},
 	destroy: function() {
 		enyo.dispatcher.rootHandler.removeListener(this);
