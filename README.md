@@ -16,5 +16,7 @@ This package requires Jason Robitaille's "webos-ext" package [add url].
 
 {kind: "Dashboard"}, enyo.keyboard, enyo.addBannerMessage, enyo.fetchAppInfo.. all these are working flawlessly.
 
+Just so everyone knows, I plan on updating this file with more info when I have time.
+
 Link to thread on enyo forums:
 http://forums.enyojs.com/discussion/711/dashboard-notifications-enyo-window-filepicker-and-more
