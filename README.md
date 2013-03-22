@@ -9,7 +9,7 @@ This package allows for certain special enyo 1.0 packages and events for use wit
 
 Use on other devices is not tested but may also work.
 
-This package requires Jason Robitaille's "webos-ext" package [add url].
+This package requires Jason Robitaille's "webos-ext" package https://github.com/webOS-ports/webos-lib
 
 *****APPLICATION EVENTS AND WINDOW EVENTS NOW WORKING.
 ======================================================
